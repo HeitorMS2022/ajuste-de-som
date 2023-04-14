@@ -1,0 +1,35 @@
+#como_funciona{
+    width: 100%;
+}
+body{
+    background-image: url("música.jpeg");
+    background-size: cover;
+}
+#Volume-música{
+    transform: scaleX(-1);
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#velocidade-música{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.volume{
+    color: white;
+    float: left;
+}
+.velocidade{
+    color: white;
+    float: right;
+}
+#reproduzir{
+    width: 150px;
+    font-size: 25px;
+}
+canvas{
+    border-radius: 100px;
+    border-color: black;
+    border-style: dotted;
+}
